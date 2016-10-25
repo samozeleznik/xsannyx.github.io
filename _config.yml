@@ -1,0 +1,14 @@
+# General Jekyll Config
+highlighter: pygments
+url: http://domitrovic.si
+lsi: false
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      show_title: true
+      post_icon: "40x40.png"
+
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
